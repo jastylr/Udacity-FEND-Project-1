@@ -179,9 +179,9 @@ footer {
 		line-height: 1.2em;
 		padding: 15px 25px;
 		position: absolute;
-	  bottom: 0;
-	  border-radius: 0;
-	  text-align: left;
+		bottom: 0;
+		border-radius: 0;
+		text-align: left;
 	}
 
 	h2 {
@@ -204,7 +204,7 @@ footer {
 	.featured .col-4 {
 		width: 50%; /* Fallback in case calc() is not supported */
 		width: calc((100% - 20px) / 2);
-  	margin-right: 10px;
+		margin-right: 10px;
 	}
 
 	.featured .col-4:last-of-type {
@@ -219,8 +219,8 @@ footer {
 @media only screen and (min-width: 760px) {
 	blockquote {
 		font-size: 1.3em;
-	  line-height: 1.2em;
-	  padding: 20px 40px;
+		line-height: 1.2em;
+		padding: 20px 40px;
 	}
 
 	.title h1 {
@@ -230,7 +230,7 @@ footer {
 	.featured .col-4 {
 		width: 33.33%; /* Fallback in case calc() is not supported */
 		width: calc((100% - 20px) / 3);
-  	margin-right: 10px;
+		margin-right: 10px;
 	}
 
 	.featured .col-4:nth-child(3n) {
