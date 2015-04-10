@@ -82,7 +82,7 @@ h2 {
 }
 
 .col-8 {
-	width: 66.66%
+	width: 66.66%;
 }
 
 .col-9 {
@@ -90,11 +90,11 @@ h2 {
 }
 
 .col-10 {
-	width: 83.33%
+	width: 83.33%;
 }
 
 .col-11 {
-	width: 91.66%
+	width: 91.66%;
 }
 
 .col-12 {
@@ -202,7 +202,7 @@ footer {
 	}
 
 	.featured .col-4 {
-		width: 50%;
+		width: 50%; /* Fallback in case calc() is not supported */
 		width: calc((100% - 20px) / 2);
   	margin-right: 10px;
 	}
@@ -228,7 +228,7 @@ footer {
 	}
 
 	.featured .col-4 {
-		width: 33.33%;
+		width: 33.33%; /* Fallback in case calc() is not supported */
 		width: calc((100% - 20px) / 3);
   	margin-right: 10px;
 	}
